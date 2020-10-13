@@ -25,12 +25,11 @@ after_script: R -q -e 'tic::after_script()'
 
 # Custom parts:
 
-# Header
+# header
 language: r
 dist: bionic
 cache: packages
 latex: false
-
 
 # stages
 stages:
